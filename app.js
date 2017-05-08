@@ -1,1 +1,12 @@
-console.log("Hello there!!!");
+var cats = require("cat-me");
+var jokes = require("knock-knock-jokes");
+var faker = require("faker");
+// console.log(cats());
+// console.log(jokes());
+var fake = faker.internet.email();
+var fakeName = faker.name.findName();
+var fakeCard = faker.helpers.createCard();
+// console.log(fakeName);
+// console.log(fake);
+console.log(fakeCard);
+// console.log("Hello there!!!");
