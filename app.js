@@ -4,10 +4,19 @@ var app = express();
 
 // "/" => "Hi"
 // "/bye" => "Goodbye"
-// "/cat" => "meaw"
+// "/ca" => "no cars here!!"
 
 app.get("/", function(req, res){
   res.send("Hi there!");
+});
+
+app.get("/bye", function(req, res){
+  res.send("Goodbye!");
+});
+
+app.get("/car", function(req, res){
+  res.send("no cars here!!");
+  console.log("this route was requested");
 });
 
 
