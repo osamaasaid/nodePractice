@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/osamaasaid/nodePractice/issues"
   },
-  "homepage": "https://github.com/osamaasaid/nodePractice#readme"
+  "homepage": "https://github.com/osamaasaid/nodePractice#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
